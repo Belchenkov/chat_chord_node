@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,700&display=swap&subset=cyrillic');
 
 :root {
-	--dark-color-a: #1ccb71;
-	--dark-color-b: #239c5e;
+	--dark-color-a: #5e3671;
+	--dark-color-b: #6c3984;
 	--light-color: #e6e9ff;
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
@@ -17,7 +17,7 @@
 body {
 	font-family: 'Exo 2', sans-serif;
 	font-size: 16px;
-	background: var(--light-color);
+	background: url("../img/bg.png") repeat;
 	margin: 20px;
 }
 
@@ -61,13 +61,15 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	font-family: 'Exo 2', sans-serif!important;
+}
+
+h1 {
+	text-shadow: 0 0 4px rgba(0, 0, 0, .4);
 }
 
 .chat-main {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
-	font-family: 'Exo 2', sans-serif;
 }
 
 .chat-sidebar {
@@ -75,7 +77,7 @@ a {
 	color: #fff;
 	padding: 20px 20px 60px;
 	overflow-y: scroll;
-	font-family: 'Exo 2', sans-serif;
+	text-shadow: 0 0 4px rgba(0, 0, 0, .4);
 }
 
 .chat-sidebar h2 {
@@ -83,28 +85,20 @@ a {
 	background: rgba(0, 0, 0, 0.1);
 	padding: 10px;
 	margin-bottom: 20px;
-	font-family: 'Exo 2', sans-serif;
 }
 
 .chat-sidebar h3 {
 	margin-bottom: 15px;
-	font-family: 'Exo 2', sans-serif;
 }
 
 .chat-sidebar ul li {
 	padding: 10px 0;
-	font-family: 'Exo 2', sans-serif;
-}
-
-.chat-sidebar ul li a {
-	font-family: 'Exo 2', sans-serif;
 }
 
 .chat-messages {
 	padding: 30px;
 	max-height: 500px;
 	overflow-y: scroll;
-	font-family: 'Exo 2', sans-serif;
 }
 
 .chat-messages .message {
@@ -112,7 +106,6 @@ a {
 	margin-bottom: 15px;
 	background-color: var(--light-color);
 	border-radius: 5px;
-	font-family: 'Exo 2', sans-serif;
 }
 
 .chat-messages .message .meta {
@@ -134,7 +127,6 @@ a {
 
 .chat-form-container form {
 	display: flex;
-	font-family: 'Exo 2', sans-serif;
 }
 
 .chat-form-container input[type='text'] {
@@ -167,18 +159,15 @@ a {
 
 .join-main p {
 	margin-bottom: 20px;
-	font-family: 'Exo 2', sans-serif;
 }
 
 .join-main .form-control {
 	margin-bottom: 20px;
-	font-family: 'Exo 2', sans-serif;
 }
 
 .join-main label {
 	display: block;
 	margin-bottom: 5px;
-	font-family: 'Exo 2', sans-serif;
 }
 
 .join-main input[type='text'] {
@@ -204,7 +193,6 @@ a {
 .join-main .btn {
 	margin-top: 20px;
 	width: 100%;
-	font-family: 'Exo 2', sans-serif;
 }
 
 @media (max-width: 700px) {
