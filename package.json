@@ -24,7 +24,7 @@
   "homepage": "https://github.com/Belchenkov/chat_chord_node#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "moment": "^2.25.3",
+    "moment": "^2.29.2",
     "socket.io": "^2.4.0"
   },
   "devDependencies": {
